@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 6 - More Complicated HTML</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
+	<div id="content">
+<h1>What is this Lab?</h1>
+<p>The point of  this lab is to help increase your knowledge when dealing with more complex HTMLs. This time though, we will
+	start dabbling with CSS files in order to spice up our webpages. Nice. We also focuesd on adding form elements to a website.</p>
+	<h2> Difficulties </h2>
+	<p>I've never dealt with CSS files, nor have I dealt with forms on HTMLs. This is all new to me, so it did take a bit of tweaking
+	as well as editing to get the results I wanted.</p>
+	<h3>Results</h3>
+	<p>This webpage is the result of my work. I hope it looks good.</p>
+
+	<img src="img/dogeshrooms.jpg" width="200">
+
+</div>
+
+<form action="https://google.com/search" method="GET"
+    target="_blank">
+  How did the image make you feel: <br>
+  <textarea name="meme-feelings"></textarea><br>
+  Your full name:<br>
+  <input type="text" name="q"/><br>
+
+
+  <label><input type="checkbox" name="choose"/>
+    Select if you would like to select.</label><br>
+		<h4>Please select One</h4>
+  <label><input type="radio" name="activity" value="drawing">
+    I prefer drawing.</label><br>
+		<label><input type="radio" name="activity" value="reading">
+	    I prefer reading.</label><br>
+		<h4>Please select One</h4>
+  <label><input type="radio" name="game" value="bgame">
+    I prefer boardgames.</label><br>
+		<label><input type="radio" name="game" value="vgame">
+			I prefer videogames.</label><br>
+
+
+
+  <select name="pick">
+    <!-- <option disabled selected>Please Select</option> -->
+
+    <option>Watermelon</option>
+    <option>Banana</option>
+    <option>Strawberry</option>
+		<option>Apple</option>
+  </select><br>
+  <input type="submit" value="Go">
+
+</form>
 
 </body>
 <nav>
