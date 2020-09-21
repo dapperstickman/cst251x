@@ -1,31 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Lab 7 - Intro to CSS</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+	<title>Lab 6 - More Complicated HTML</title>
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
-  <body>
+<body>
+	<div id="content">
+<h1>What is this Lab?</h1>
+<p>The point of  this lab is to help increase your knowledge when dealing with more complex HTMLs. This time though, we will
+	start dabbling with CSS files in order to spice up our webpages. Nice. We also focuesd on adding form elements to a website.</p>
+	<h2> Difficulties </h2>
+	<p>I've never dealt with CSS files, nor have I dealt with forms on HTMLs. This is all new to me, so it did take a bit of tweaking
+	as well as editing to get the results I wanted.</p>
+	<h3>Results</h3>
+	<p>This webpage is the result of my work. I hope it looks good.</p>
 
-    <div id="content">
-    <h1> Challenge </h1>
-<p>The challenge of this lab is to help us with learning our way around working with CSSs. This will be our intro for the lessons that are to come. We also needed to make our own files such as the HTML, CSS, and folders needed for the lab.</p>
-    <h1> Problems </h1>
-<p>The problems that arose is that we are now working with CSS files. They are supposed to be less unforgiving than the HTML files we have been dealing with so far. We have added more commands for the CSS files. This is new territory. Now, we are spicing up our websites.</p>
-    <h1> Results </h1>
-    <p>This webpage is the result of my work. I have add in the usual stuff, added a few IDs and classes in order to get the CSS files to flow correctly. Witness this atrocity that I have created.</p>
+	<img src="img/dogeshrooms.jpg" width="200">
+
 </div>
 
-<div id="image">
-    <img src="img/lab7a.jpeg" width="800">
-</div>
+<form action="https://google.com/search" method="GET"
+    target="_blank">
+  How did the image make you feel: <br>
+  <textarea name="meme-feelings"></textarea><br>
+  Your full name:<br>
+  <input type="text" name="q"/><br>
 
 
-  </body>
+  <label><input type="checkbox" name="choose"/>
+    Select if you would like to select.</label><br>
+		<h4>Please select One</h4>
+  <label><input type="radio" name="activity" value="drawing">
+    I prefer drawing.</label><br>
+		<label><input type="radio" name="activity" value="reading">
+	    I prefer reading.</label><br>
+		<h4>Please select One</h4>
+  <label><input type="radio" name="game" value="bgame">
+    I prefer boardgames.</label><br>
+		<label><input type="radio" name="game" value="vgame">
+			I prefer videogames.</label><br>
 
-  <nav>
-  		<ul>
-        <li><a href="../index.html">CST251 Homepage</a></li>
-      </ul>
-  	</nav>
+
+
+  <select name="pick">
+    <!-- <option disabled selected>Please Select</option> -->
+
+    <option>Watermelon</option>
+    <option>Banana</option>
+    <option>Strawberry</option>
+		<option>Apple</option>
+  </select><br>
+  <input type="submit" value="Go">
+
+</form>
+
+</body>
+<nav>
+		<ul>
+      <li><a href="../index.html">CST251 Homepage</a></li>
+    </ul>
+	</nav>
 
 </html>
