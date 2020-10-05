@@ -1,0 +1,55 @@
+html {
+    background-color: lightblue;
+    padding: 20px;
+    font-size: 100%;
+  }
+  aside {
+  background-color: tan;
+  display: inline-block;
+  min-width: 300px;
+  width: 30%;
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  float:right;
+  top: 50px;
+  position: sticky;
+  border-radius: 10px;
+  }
+
+  h1 {
+    letter-spacing: 10px;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+
+  }
+body {
+  background: 20px;
+  background-color: lightgreen;
+  padding: 30px;
+  border: 50px;
+  border-style: inset;
+  border-radius: 30px;
+}
+p {
+  margin-right: 50px;
+  margin-left: 100px;
+  word-spacing: 10px;
+  color: white;
+  font-family: 'Bangers', cursive;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  background-color: tan;
+  display: inline-block;
+  padding: 10px;
+  border-style: solid;
+  border-color: black;
+  top: 50px;
+  position: sticky;
+  border-radius: 50px;
+}
