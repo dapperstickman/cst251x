@@ -1,0 +1,56 @@
+html {
+  background-color:tan;
+  text-align:center;
+}
+nav {
+  border: solid 3px black;
+
+box-shadow: 5px 0px brown;
+}
+header {
+  border: solid 3px black;
+box-shadow: 0px 5px brown;
+
+
+}
+footer {
+  border: solid 3px black;
+box-shadow: 5px 5px brown;
+
+
+
+}
+main {
+  border: solid 3px black;
+box-shadow: 5px 5px brown;
+}
+aside {
+  border: solid 3px black;
+  box-shadow: 5px 0px brown;
+}
+
+.flex1 {
+ display: flex;
+justify-content: center;
+flex-direction: row-reverse;
+}
+
+.flex2 {
+  display: flex;
+  align-content: center;
+
+
+}
+.box1 {
+flex-grow: 2;
+}
+.box2 {
+  flex-grow: 3;
+}
+.box3 {
+flex-grow: 3;
+
+}
+.box4 {
+
+}
