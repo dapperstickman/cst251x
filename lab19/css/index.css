@@ -1,0 +1,15 @@
+nav {
+  border: solid 3px lightgray;
+
+box-shadow: 5px 0px brown;
+}
+.row {
+    border: solid 3px lightgray;
+
+  box-shadow: 5px 5px brown;
+}
+.column {
+  border: solid 3px lightgray;
+
+box-shadow: 5px 5px lightgray;
+}
