@@ -5,7 +5,14 @@ html {
 img {
   border: solid 3px lightgray;
 
-box-shadow: 5px 5px brown;
+  box-shadow: 5px 5px brown;
 border-radius: 0 25px;
 border: 2px brown solid;
+position: relative;
+height: auto;
+transition: all 1s;
+}
+img:hover {
+  width: 800px;
+
 }
